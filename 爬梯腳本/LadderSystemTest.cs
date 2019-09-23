@@ -7,28 +7,28 @@ using UnityStandardAssets.Characters.FirstPerson;
 public class LadderSystemTest : MonoBehaviour
 {
     [Tag]
-    public string m_PlayerTag;
+    public string m_PlayerTag; //玩家Tag
 
-    public Vector3 m_LowerPoint;
-    public Vector3 m_UpperPoint;
+    public Vector3 m_LowerPoint; //初始最低點
+    public Vector3 m_UpperPoint; //初始最高點
 
-    public float m_MoveSpeed;
+    public float m_MoveSpeed; //玩家移動速度
 
-    FirstPersonController m_FPSController;
+    FirstPersonController m_FPSController; //官方FPS控制器
 
-    bool m_IsIn;
-    float m_MoveAmount;
+    bool m_IsIn; //是否已進入爬梯狀態
+    float m_MoveAmount; //玩家目前爬梯位置
 
-    Vector3 m_EnterPosition;
+    Vector3 m_EnterPosition; //玩家進入點
 
 
-    Vector3 m_OffsetedLowerPoint;
-    Vector3 m_OffsetedUpperPoint;
+    Vector3 m_OffsetedLowerPoint; //位移後最低點
+    Vector3 m_OffsetedUpperPoint; //位移後最高點
 
-    float m_OffsetLength;
+    float m_OffsetLength; //位移後最高點與位移後最低點總長度
 
-    float m_LowerPortion;
-    float m_UpperPortion;
+    float m_LowerPortion; //位移後最低點與玩家進入點 和 總長度比例
+    float m_UpperPortion; //位移後最高點與玩家進入點 和 總長度比例
 
     Vector3 m_CurrentPosition;
     // Start is called before the first frame update
