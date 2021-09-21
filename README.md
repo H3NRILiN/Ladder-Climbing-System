@@ -16,4 +16,6 @@
 - 紅色Cube則是玩家位置
 - 紅色線是從進入點開始計算到端點的距離
 
-[Youtube影片](https://youtu.be/DVCV7X2JHS8)
+Youtube影片：
+
+[![Youtube影片](http://i3.ytimg.com/vi/DVCV7X2JHS8/hqdefault.jpg)](https://youtu.be/DVCV7X2JHS8)
